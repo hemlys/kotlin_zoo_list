@@ -11,12 +11,6 @@ import retrofit2.http.Path
 
 interface ApiService {
 
-//    @GET("/users")
-//    fun getAll(): Single<List<UsersList>>
-//
-//    @GET("/users/{name}")
-//    fun getUsersDetail(@Path("name") name: String): Single<UsersDetails>
-
 
     @GET("/api/v1/dataset/5a0e5fbb-72f8-41c6-908e-2fb25eff9b8a?scope=resourceAquire")
     fun getAll(): Single<Zoobean>

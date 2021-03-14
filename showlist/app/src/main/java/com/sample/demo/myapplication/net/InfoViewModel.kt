@@ -4,12 +4,8 @@ import android.annotation.SuppressLint
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.sample.demo.myapplication.Userinfo
-import com.sample.demo.myapplication.bean.UsersDetails
-import com.sample.demo.myapplication.bean.UsersList
 import com.sample.demo.myapplication.bean.Zoobean
 import com.sample.demo.myapplication.bean.detail.ZooDetails
-import io.reactivex.SingleTransformer
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 
